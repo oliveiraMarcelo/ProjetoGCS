@@ -23,3 +23,8 @@ double divisao(double x, double y){
     
     return divisao;
 }
+
+double multiplicacao(double x, double y){
+
+	return x*y;
+}
