@@ -18,6 +18,7 @@ int main(){
 
 	do{
 
+		printf("\nDigite a opcao: \n");
 		scanf("%d", &opcao);
 
 		if(opcao !=0){
@@ -30,24 +31,27 @@ int main(){
 
 		switch (opcao){
 			case 1:
-
+				printf("Resultado = %.2f\n", soma(number1,number2));
 			break;
 
 			case 2:
-
+				printf("Resultado = %.2f\n", subtracao(number1,number2));
 			break;
 
 			case 3:
-
+				printf("Resultado = %.2f\n", multiplicacao(number1,number2));
 			break;
 
 			case 4:
-
+				printf("Resultado = %.2f\n", divisao(number1,number2));
 			break;
 
 			case 0:
 				exit(1);
 			break;
+
+			default: 
+				printf("Opcao invalida!\n");
 		}
 
 	}while(opcao!=0);
