@@ -8,4 +8,8 @@ double subtracao(double x, double y){
 	subtracao = x - y;
 
 	return subtracao;
+
+
+double soma(double x, double y){
+	return x+y;
 }
