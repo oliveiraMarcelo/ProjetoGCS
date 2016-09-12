@@ -9,7 +9,17 @@ double subtracao(double x, double y){
 
 	return subtracao;
 
+}
 
 double soma(double x, double y){
 	return x+y;
+}
+
+double divisao(double x, double y){
+    assert(y != 0);
+    
+    double divisao;
+    divisao = x / y;
+    
+    return divisao;
 }

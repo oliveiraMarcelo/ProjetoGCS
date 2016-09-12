@@ -8,14 +8,7 @@ double soma(double x, double y);
 
 double subtracao(double x, double y);
 
-double divisao(double x, double y){
-    assert(y != 0);
-    
-    double divisao;
-    divisao = x / y;
-    
-    return divisao;
-}
+double divisao(double x, double y);
 
 double multiplicacao(double x, double y);
 

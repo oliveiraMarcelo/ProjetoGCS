@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include "operacoes.c"
+#include "operacoes.h"
 
 int main(){
 
